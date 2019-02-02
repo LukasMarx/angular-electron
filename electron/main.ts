@@ -33,5 +33,5 @@ function createWindow() {
 
 ipcMain.on("getFiles", (event, arg) => {
   const files = fs.readdirSync(__dirname);
-  win.webContents.send("files", files);
+  win.webContents.send("getFilesResponse", files);
 });
