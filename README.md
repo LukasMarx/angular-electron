@@ -1,27 +1,19 @@
-# AngularElectron
+![image](https://malcoded.com/v1/api/asset/angular-desktop-electron.png)
+# Creating Angular Desktop Apps with Electron
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.6.
+In this tutorial, we are going to take a look at how to turn any angular application into a native desktop app using electron.
 
-## Development server
+You will learn how to set up an angular app and run it inside of electron using typescript all the way.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Also, you will discover how to use native APIs like the file system from your angular application using electrons IPC methods.
 
-## Code scaffolding
+Ready?
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Let's get started!
 
-## Build
+[Read the full article on malcoded.com](https://malcoded.com/posts/angular-desktop-electron)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+## Starting the application
+```
+yarn electron
+```
