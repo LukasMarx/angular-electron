@@ -10,6 +10,6 @@ export class AppComponent {
   title = "angular-electron";
 
   constructor(private fileService: FileService) {
-    fileService.getFiles().then(console.log);
+    this.fileService.getFiles().then(console.log);
   }
 }
